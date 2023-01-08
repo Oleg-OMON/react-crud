@@ -1,0 +1,140 @@
+.post-new-wrapper {
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 500px;
+  background-color: #8686a3;
+  display: flex;
+  flex-direction: column;
+}
+.post-header {
+  display: flex;
+  flex-direction: row;
+}
+.post-new-header__btns-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+button.post-new-header__btn {
+  width: 120px;
+  height: 32px;
+  background-color: #915391;
+  color: #fff;
+}
+
+button.post-new-header__btn-close {
+  position: absolute;
+  top: -32px;
+  right: -32px;
+  height: 32px;
+  width: 32px;
+  color: #915391;
+  background-color: #fff;
+  border-radius: 32px;
+}
+
+/*post-view*/
+.post-view-wrapper,
+.post-edit-wrapper {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #444;
+}
+
+.post-view-header,
+.post-edit-header,
+.post-header {
+  display: flex;
+  flex-direction: revert;
+  padding: 20px;
+}
+button.post-view-header__btn-close,
+button.post-edit-header__btn-close {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  top: -22px;
+  right: -22px;
+  color: #915391;
+  background-color: #fff;
+}
+
+.post-view-btns__block,
+.post-edit-btns__block {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button.post-view__btn-remove,
+button.post-view__btn-edit,
+button.post-view__btn-save {
+  width: 40%;
+  height: 32px;
+  background-color: #915391;
+  color: #fff;
+}
+
+a.post-view-link {
+  width: 40%;
+}
+
+button.post-view__btn-edit {
+  width: 100%;
+}
+
+.post-content {
+  margin: 10px;
+  padding: 10px;
+}
+
+.post-view__content {
+  height: 30%;
+}
+.card-text {
+  height: 80%;
+  margin: 20px;
+  padding: 10px;
+  background-color: beige;
+}
+
+.post-card-text {
+  width: 40%;
+  padding: 5px;
+}
+img.post-view-image,
+img.post-edit-image,
+.post-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+}
+
+.post-view-image-wrap,
+.post-edit-image-wrap,
+.post-image-wrap {
+  width: 70px;
+  height: 70px;
+}
+
+/**/
+.post-edit-header {
+  flex-direction: column;
+  background-color: beige;
+}
+
+.post-edit-image-wrap {
+  margin-top: 10px;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.post-edit__content {
+  display: flex;
+  flex-direction: row;
+}
